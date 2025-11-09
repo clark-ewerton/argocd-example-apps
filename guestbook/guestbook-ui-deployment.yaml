@@ -2,6 +2,8 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: guestbook-ui
+  annotations:
+    force-sync: 2025-11-09T19:52:47
 spec:
   replicas: 1
   revisionHistoryLimit: 3
