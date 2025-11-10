@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: guestbook-ui
   annotations:
-    force-sync: 2025-11-10T01:39:02
+    force-sync: 2025-11-10T01:40:51
 spec:
   replicas: 1
   revisionHistoryLimit: 3
